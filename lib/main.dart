@@ -9,6 +9,8 @@ class AnimationDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(primaryColor: Color(0xff1dd3bd)),
       home: FirstScreen(),
     );
   }
